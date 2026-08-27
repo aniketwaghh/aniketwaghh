@@ -8,7 +8,7 @@
 
 <a href="https://www.linkedin.com/in/aniket-s-wagh"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:contact.aniketwagh@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<img src="https://img.shields.io/badge/AWS_Certified_Developer-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Certified Developer – Associate" />
+<a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/7b967ff892444689bc2d155a4785469a"><img src="https://img.shields.io/badge/AWS_Certified_Developer-FF9900?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS Certified Developer – Associate (verify credential)" /></a>
 <img src="https://img.shields.io/badge/Pune,_India-34A853?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Pune, India" />
 
 </div>
@@ -105,7 +105,7 @@ flowchart LR
 
 | | |
 | :-- | :-- |
-| 🏅 **AWS Certified Developer – Associate** (DVA-C02) | Amazon Web Services |
+| 🏅 **[AWS Certified Developer – Associate](https://cp.certmetrics.com/amazon/en/public/verify/credential/7b967ff892444689bc2d155a4785469a)** (DVA-C02) | Amazon Web Services · [verify ↗](https://cp.certmetrics.com/amazon/en/public/verify/credential/7b967ff892444689bc2d155a4785469a) |
 | 📜 **AI Engineer — Core Track** | LLM engineering, RAG, LoRA/QLoRA fine-tuning, evals, observability |
 | 📜 **AI Engineer — Agentic Track** | Agentic design patterns, context engineering, MCP, CrewAI, LangGraph |
 | 🏆 **AI Fiesta — Certificate of Appreciation** | Apexon — for driving AI adoption across teams |
