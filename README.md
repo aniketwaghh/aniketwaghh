@@ -131,11 +131,6 @@ HR surveys had low participation and slow manual follow-up. Launched a **voice a
   <td>React · Vite · Node · Tailwind · Nginx</td>
 </tr>
 <tr>
-  <td><a href="https://github.com/aniketwaghh/llm-learning-lab"><b>llm-learning-lab</b></a></td>
-  <td>Building and optimising LLMs from scratch — fine-tuning, quantisation (LoRA/QLoRA) and experiments with new GenAI techniques.</td>
-  <td>Python · PyTorch · Transformers</td>
-</tr>
-<tr>
   <td><a href="https://github.com/aniketwaghh/blockbuy-marketplace"><b>blockbuy-marketplace</b></a></td>
   <td>Blockchain-powered marketplace — Flutter cross-platform client backed by Ethereum smart contracts, built for security, transparency and decentralised trust.</td>
   <td>Dart · Flutter · Solidity · Web3</td>
