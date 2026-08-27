@@ -1,0 +1,38 @@
+# Generates the stat cards used in README.md and commits them into this repo.
+#
+# Why in-repo instead of the usual <github-readme-stats.vercel.app> image URLs:
+# those hosted renderers go down. At the time this profile was built the public
+# github-readme-stats deployment was returning 503 and both github-profile-trophy
+# and github-readme-activity-graph were returning 402, which renders every copy of
+# that README as broken images. Generating the SVGs here means the profile only
+# depends on this repository.
+name: Profile summary cards
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily, 03:17 UTC
+  workflow_dispatch: # run it by hand from the Actions tab
+  push:
+    branches: [main]
+    paths: [".github/workflows/profile-summary-cards.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Generate cards
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: vn7n24fzkq/github-profile-summary-cards@v0.12.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: 5.5 # IST — drives the "productive time" card
+          # Forked repos would otherwise drown out the language cards with
+          # other people's code.
+          EXCLUDE_REPOS: "aniketwaghh/chainlit,aniketwaghh/kana-dojo"
