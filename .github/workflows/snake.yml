@@ -11,6 +11,12 @@ on:
     branches: [main]
     paths: [".github/workflows/snake.yml"]
 
+# Both a manual run and a push run committing at the same time race on
+# `git push`; serialise them instead of letting the loser fail.
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
