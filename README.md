@@ -34,6 +34,7 @@ Multi-agent orchestration, retrieval that holds up at scale, and the guardrails,
 
 | Project | Contribution | |
 | :-- | :-- | :-- |
+| **[LiteLLM](https://github.com/BerriAI/litellm)** | [`fix(proxy): expand wildcards for providers discovered from their endpoint`](https://github.com/BerriAI/litellm/pull/38557) — a chained gateway now lists the upstream's real models instead of the literal `litellm_proxy/*` | 🟢 Open |
 | **[Chainlit](https://github.com/Chainlit/chainlit)** | [`feat(mcp): support mcp 2.x alongside 1.x`](https://github.com/Chainlit/chainlit/pull/3030) — one code path serving both SDK majors, no version sniffing | 🟢 Open |
 | **[kana-dojo](https://github.com/lingdojo/kana-dojo)** | Content contribution to the Japanese-learning platform | ✅ Merged |
 
