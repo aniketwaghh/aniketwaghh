@@ -27,7 +27,7 @@ Multi-agent orchestration, retrieval that holds up at scale, and the guardrails,
 | :-- | :-- | :-- |
 | **[rag-studio](https://github.com/aniketwaghh/rag-studio)** | Visual builder for production RAG pipelines, split into API and worker services | FastAPI · TypeScript · K8s |
 | **[GarudaSDLC](https://github.com/aniketwaghh/GarudaSDLC)** | AI "employees" that turn client meetings into shipped software — knowledge graph, drafted tickets, human approval on everything | Python · Agents · AWS |
-| **[sahayog-ai](https://github.com/aniketwaghh/sahayog-ai)** | SahayogAI product site with a Node backend, i18n and analytics | React · Vite · Node |
+| **[sahayog-ai](https://github.com/aniketwaghh/sahayog-ai)** | Voice AI agent for Indian businesses — real-time WebRTC speech pipeline with auto language detection, on a trilingual pre-rendered site | Pipecat · FastAPI · React |
 | **[blockbuy-marketplace](https://github.com/aniketwaghh/blockbuy-marketplace)** | Marketplace backed by Ethereum smart contracts | Flutter · Solidity · Web3 |
 
 ## Open source
