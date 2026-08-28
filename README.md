@@ -46,7 +46,6 @@ Multi-agent orchestration, retrieval that holds up at scale, and the guardrails,
 
 </div>
 
-<details>
 <summary><b>🎓 Credentials</b></summary>
 
 <br />
@@ -56,8 +55,6 @@ Multi-agent orchestration, retrieval that holds up at scale, and the guardrails,
 - 📜 **AI Engineer, Agentic Track** — agentic design patterns, context engineering, MCP, CrewAI, LangGraph
 - 🏆 **AI Fiesta** & 🌟 **Budding Star Award, Q4** — Apexon
 - 🎓 **B.Tech, Computer Science & Engineering (AI)** — NCER Pune · 2024 · CGPA 8.28/10
-
-</details>
 
 ---
 
