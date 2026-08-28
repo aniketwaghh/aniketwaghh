@@ -25,8 +25,8 @@ Multi-agent orchestration, retrieval that holds up at scale, and the guardrails,
 
 | Repo | What it does | Stack |
 | :-- | :-- | :-- |
-| **[GarudaSDLC](https://github.com/aniketwaghh/GarudaSDLC)** | AI "employees" that turn client meetings into shipped software — knowledge graph, drafted tickets, human approval on everything | Python · Agents · AWS |
 | **[rag-studio](https://github.com/aniketwaghh/rag-studio)** | Visual builder for production RAG pipelines, split into API and worker services | FastAPI · TypeScript · K8s |
+| **[GarudaSDLC](https://github.com/aniketwaghh/GarudaSDLC)** | AI "employees" that turn client meetings into shipped software — knowledge graph, drafted tickets, human approval on everything | Python · Agents · AWS |
 | **[sahayog-ai](https://github.com/aniketwaghh/sahayog-ai)** | SahayogAI product site with a Node backend, i18n and analytics | React · Vite · Node |
 | **[blockbuy-marketplace](https://github.com/aniketwaghh/blockbuy-marketplace)** | Marketplace backed by Ethereum smart contracts | Flutter · Solidity · Web3 |
 
