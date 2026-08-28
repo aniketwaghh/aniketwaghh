@@ -23,8 +23,6 @@ Multi-agent orchestration, retrieval that holds up at scale, and the guardrails,
 
 ## Open source
 
-I contribute to the Python AI/agent stack. Most of these were bugs I found by reading the
-code, then filed and fixed myself — 2 merged, 4 in review.
 
 | Project | What it is | My contribution |
 | :-- | :-- | :-- |
