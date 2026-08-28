@@ -32,10 +32,16 @@ Multi-agent orchestration, retrieval that holds up at scale, and the guardrails,
 
 ## Open source
 
+Contributing to the Python AI/agent stack — **6 upstream repos**, 2 merged, 4 in review.
+Three of these bugs I found myself by probing the code, then filed and fixed.
+
 | Project | Contribution | |
 | :-- | :-- | :-- |
-| **[LiteLLM](https://github.com/BerriAI/litellm)** | [`fix(proxy): expand wildcards for providers discovered from their endpoint`](https://github.com/BerriAI/litellm/pull/38557) — a chained gateway now lists the upstream's real models instead of the literal `litellm_proxy/*` | 🟢 Open |
-| **[Chainlit](https://github.com/Chainlit/chainlit)** | [`feat(mcp): support mcp 2.x alongside 1.x`](https://github.com/Chainlit/chainlit/pull/3030) — one code path serving both SDK majors, no version sniffing | 🟢 Open |
+| **[docling](https://github.com/docling-project/docling)** | [`fix(csv): drop the UTF-8 BOM instead of keeping it in the first cell`](https://github.com/docling-project/docling/pull/4098) — an Excel-saved CSV put `\ufeffName` in the first header cell and carried it into the exported markdown. Found it, [filed it](https://github.com/docling-project/docling/issues/4097), fixed it | ✅ **Merged** |
+| **[Chainlit](https://github.com/Chainlit/chainlit)** | [`feat(mcp): support mcp 2.x alongside 1.x`](https://github.com/Chainlit/chainlit/pull/3030) — one code path serving both SDK majors, no version sniffing, plus a CI job that actually installs 2.x so the guard can't pass vacuously | 🟡 In review |
+| **[LiteLLM](https://github.com/BerriAI/litellm)** | [`fix(proxy): expand wildcards for providers discovered from their endpoint`](https://github.com/BerriAI/litellm/pull/38557) — a chained gateway now lists the upstream's real models instead of the literal `litellm_proxy/*` | 🟡 In review |
+| **[LlamaIndex](https://github.com/run-llama/llama_index)** | [`fix: keep TokenTextSplitter chunks within chunk_size`](https://github.com/run-llama/llama_index/pull/22859) — chunks came back one token over the limit because splits were budgeted before stripping. `chunk_size=512` was silently emitting 513 | 🟡 In review |
+| **[browser-use](https://github.com/browser-use/browser-use)** | [`fix: keep balanced trailing brackets in URLs`](https://github.com/browser-use/browser-use/pull/5576) — a URL ending in `)` was truncated before the agent navigated to it | 🟡 In review |
 | **[kana-dojo](https://github.com/lingdojo/kana-dojo)** | Content contribution to the Japanese-learning platform | ✅ Merged |
 
 ## Toolkit
