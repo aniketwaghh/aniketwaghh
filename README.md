@@ -75,6 +75,11 @@ Multi-agent orchestration, retrieval that holds up at scale, and the guardrails,
 <img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Contribution stats" width="44%" />
 <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Repositories per language" width="44%" />
 
+<img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Most committed language" width="44%" />
+<img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Most productive time of day" width="44%" />
+
+<img src="https://streak-stats.demolab.com?user=aniketwaghh&theme=github-dark-blue&hide_border=true&border_radius=8&date_format=j%20M%5B%20Y%5D" alt="Contribution streak — current and longest" width="88%" />
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aniketwaghh/aniketwaghh/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/aniketwaghh/aniketwaghh/output/github-snake.svg" />
