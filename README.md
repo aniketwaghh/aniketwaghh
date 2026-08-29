@@ -31,10 +31,14 @@ Multi-agent orchestration, retrieval that holds up at scale, and the guardrails,
 | <img src="https://github.com/browser-use.png?size=40" width="18" height="18" alt="" align="top" /> **[browser-use](https://github.com/browser-use/browser-use)** `★112k` | Browser automation for AI agents | [URLs ending in `)` were truncated before navigation](https://github.com/browser-use/browser-use/pull/5576) |
 | <img src="https://github.com/lingdojo.png?size=40" width="18" height="18" alt="" align="top" /> **[kana-dojo](https://github.com/lingdojo/kana-dojo)** `★3k` | Japanese-learning platform | trivia content |
 
+<!-- In review — un-comment to show. Kept here so the list survives edits.
+     Note: the column-alignment rows use `:-` not `:--`, because a literal
+     `--` inside an HTML comment is invalid and can end the comment early.
+
 ### In review
 
 | Project | Fix |
-| :-- | :-- |
+| :- | :- |
 | <img src="https://github.com/browser-use.png?size=40" width="18" height="18" alt="" align="top" /> **[browser-use](https://github.com/browser-use/browser-use)** `★112k` | [`ChatGoogle` dropped the first user message when it held list content](https://github.com/browser-use/browser-use/pull/5597) |
 | <img src="https://github.com/bytedance.png?size=40" width="18" height="18" alt="" align="top" /> **[DeerFlow](https://github.com/bytedance/deer-flow)** `★81k` | [a renamed PyPI package left `make dev` unresolvable](https://github.com/bytedance/deer-flow/pull/5087) |
 | <img src="https://github.com/docling-project.png?size=40" width="18" height="18" alt="" align="top" /> **[docling](https://github.com/docling-project/docling)** `★66k` | [a leading BOM broke WebVTT validation and hid the first heading](https://github.com/docling-project/docling/pull/4109) |
@@ -46,6 +50,7 @@ Multi-agent orchestration, retrieval that holds up at scale, and the guardrails,
 | <img src="https://github.com/strands-agents.png?size=40" width="18" height="18" alt="" align="top" /> **[Strands Harness SDK](https://github.com/strands-agents/harness-sdk)** `★7k` | [the file editor rewrote every tab to spaces](https://github.com/strands-agents/harness-sdk/pull/4051) · [a bare `KeyError` on location-source documents](https://github.com/strands-agents/harness-sdk/pull/4060) |
 | <img src="https://github.com/openlit.png?size=40" width="18" height="18" alt="" align="top" /> **[OpenLIT](https://github.com/openlit/openlit)** `★3k` | [guards silently skipped on Mistral's async chat method](https://github.com/openlit/openlit/pull/1496) |
 | <img src="https://github.com/OpenHands.png?size=40" width="18" height="18" alt="" align="top" /> **[OpenHands SDK](https://github.com/OpenHands/software-agent-sdk)** `★1k` | [a process-global `cwd` leaked across concurrent tool calls](https://github.com/OpenHands/software-agent-sdk/pull/4703) |
+-->
 
 ## Toolkit
 
