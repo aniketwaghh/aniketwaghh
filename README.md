@@ -27,7 +27,7 @@ Multi-agent orchestration, retrieval that holds up at scale, and the guardrails,
 
 | Project | What it is | Fix |
 | :-- | :-- | :-- |
-| <img src="https://github.com/browser-use.png?size=40" width="18" height="18" alt="" align="top" /> **[browser-use](https://github.com/browser-use/browser-use)** `★112k` | Browser automation for AI agents | [Agent navigation silently dropped valid URLs](https://github.com/browser-use/browser-use/pull/5576) |
+| <img src="https://github.com/browser-use.png?size=40" width="18" height="18" alt="" align="top" /> **[browser-use](https://github.com/browser-use/browser-use)** `★112k` | Browser automation for AI agents | [Agent navigation silently dropped valid URLs](https://github.com/browser-use/browser-use/pull/5576) · [Gemini chats lost the first user message](https://github.com/browser-use/browser-use/pull/5597) |
 | <img src="https://github.com/bytedance.png?size=40" width="18" height="18" alt="" align="top" /> **[DeerFlow](https://github.com/bytedance/deer-flow)** `★81k` | ByteDance's long-horizon agent harness | [A broken dependency blocked every fresh setup](https://github.com/bytedance/deer-flow/pull/5087) |
 | <img src="https://github.com/docling-project.png?size=40" width="18" height="18" alt="" align="top" /> **[docling](https://github.com/docling-project/docling)** `★66k` | Document parsing for gen-AI pipelines | [Corrupted headers in parsed CSV output](https://github.com/docling-project/docling/pull/4098) |
 | <img src="https://github.com/livekit.png?size=40" width="18" height="18" alt="" align="top" /> **[LiveKit Agents](https://github.com/livekit/agents)** `★14k` | Realtime voice AI agent framework | [API keys leaked into logs](https://github.com/livekit/agents/pull/7032) |
@@ -42,7 +42,6 @@ Multi-agent orchestration, retrieval that holds up at scale, and the guardrails,
 | Project | Fix |
 | :- | :- |
 | <img src="https://github.com/n8n-io.png?size=40" width="18" height="18" alt="" align="top" /> **[n8n](https://github.com/n8n-io/n8n)** `★203k` | [Fields named `toString` or `valueOf` returned JS internals, not data](https://github.com/n8n-io/n8n/pull/37359) |
-| <img src="https://github.com/browser-use.png?size=40" width="18" height="18" alt="" align="top" /> **[browser-use](https://github.com/browser-use)** `★112k` | [Gemini chats lost the first user message](https://github.com/browser-use/browser-use/pull/5597) |
 | <img src="https://github.com/docling-project.png?size=40" width="18" height="18" alt="" align="top" /> **[docling](https://github.com/docling-project/docling)** `★66k` | [Invalid WebVTT output from encoded files](https://github.com/docling-project/docling/pull/4109) |
 | <img src="https://github.com/BerriAI.png?size=40" width="18" height="18" alt="" align="top" /> **[LiteLLM](https://github.com/BerriAI/litellm)** `★57k` | [Chained gateways exposed no usable model list](https://github.com/BerriAI/litellm/pull/38557) |
 | <img src="https://github.com/run-llama.png?size=40" width="18" height="18" alt="" align="top" /> **[LlamaIndex](https://github.com/run-llama/llama_index)** `★52k` | [Text splitter breached its own chunk limit](https://github.com/run-llama/llama_index/pull/22859) |
