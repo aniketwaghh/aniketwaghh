@@ -27,29 +27,30 @@ Multi-agent orchestration, retrieval that holds up at scale, and the guardrails,
 
 | Project | What it is | Fix |
 | :-- | :-- | :-- |
-| <img src="https://github.com/browser-use.png?size=40" width="18" height="18" alt="" align="top" /> **[browser-use](https://github.com/browser-use/browser-use)** `★112k` | Browser automation for AI agents | [URLs ending in `)` were truncated before navigation](https://github.com/browser-use/browser-use/pull/5576) |
-| <img src="https://github.com/bytedance.png?size=40" width="18" height="18" alt="" align="top" /> **[DeerFlow](https://github.com/bytedance/deer-flow)** `★81k` | ByteDance's long-horizon agent harness | [a renamed PyPI package left `make dev` unresolvable](https://github.com/bytedance/deer-flow/pull/5087) |
-| <img src="https://github.com/docling-project.png?size=40" width="18" height="18" alt="" align="top" /> **[docling](https://github.com/docling-project/docling)** `★66k` | Document parsing for gen-AI pipelines | [a UTF-8 BOM was corrupting the first CSV header cell](https://github.com/docling-project/docling/pull/4098) |
-| <img src="https://github.com/lingdojo.png?size=40" width="18" height="18" alt="" align="top" /> **[kana-dojo](https://github.com/lingdojo/kana-dojo)** `★3k` | Japanese-learning platform | trivia content |
+| <img src="https://github.com/browser-use.png?size=40" width="18" height="18" alt="" align="top" /> **[browser-use](https://github.com/browser-use/browser-use)** `★112k` | Browser automation for AI agents | [Agent navigation silently dropped valid URLs](https://github.com/browser-use/browser-use/pull/5576) |
+| <img src="https://github.com/bytedance.png?size=40" width="18" height="18" alt="" align="top" /> **[DeerFlow](https://github.com/bytedance/deer-flow)** `★81k` | ByteDance's long-horizon agent harness | [A broken dependency blocked every fresh setup](https://github.com/bytedance/deer-flow/pull/5087) |
+| <img src="https://github.com/docling-project.png?size=40" width="18" height="18" alt="" align="top" /> **[docling](https://github.com/docling-project/docling)** `★66k` | Document parsing for gen-AI pipelines | [Corrupted headers in parsed CSV output](https://github.com/docling-project/docling/pull/4098) |
+| <img src="https://github.com/lingdojo.png?size=40" width="18" height="18" alt="" align="top" /> **[kana-dojo](https://github.com/lingdojo/kana-dojo)** `★3k` | Japanese-learning platform | Content contribution |
 
 <!-- In review — un-comment to show. Kept here so the list survives edits.
-     Note: the column-alignment rows use `:-` not `:--`, because a literal
-     `--` inside an HTML comment is invalid and can end the comment early.
+     Note: the alignment row uses `:-` not `:--`, because a literal `--`
+     inside an HTML comment is invalid and can end the comment early.
 
 ### In review
 
 | Project | Fix |
 | :- | :- |
-| <img src="https://github.com/browser-use.png?size=40" width="18" height="18" alt="" align="top" /> **[browser-use](https://github.com/browser-use/browser-use)** `★112k` | [`ChatGoogle` dropped the first user message when it held list content](https://github.com/browser-use/browser-use/pull/5597) |
-| <img src="https://github.com/docling-project.png?size=40" width="18" height="18" alt="" align="top" /> **[docling](https://github.com/docling-project/docling)** `★66k` | [a leading BOM broke WebVTT validation and hid the first heading](https://github.com/docling-project/docling/pull/4109) |
-| <img src="https://github.com/BerriAI.png?size=40" width="18" height="18" alt="" align="top" /> **[LiteLLM](https://github.com/BerriAI/litellm)** `★57k` | [chained gateways listed a wildcard instead of real models](https://github.com/BerriAI/litellm/pull/38557) |
-| <img src="https://github.com/run-llama.png?size=40" width="18" height="18" alt="" align="top" /> **[LlamaIndex](https://github.com/run-llama/llama_index)** `★52k` | [`TokenTextSplitter` emitted chunks over `chunk_size`](https://github.com/run-llama/llama_index/pull/22859) |
-| <img src="https://github.com/mastra-ai.png?size=40" width="18" height="18" alt="" align="top" /> **[Mastra](https://github.com/mastra-ai/mastra)** `★28k` | [memory timestamps written in server local time, not UTC](https://github.com/mastra-ai/mastra/pull/22590) |
-| <img src="https://github.com/livekit.png?size=40" width="18" height="18" alt="" align="top" /> **[LiveKit Agents](https://github.com/livekit/agents)** `★14k` | [API keys leaked into logs on a rejected websocket upgrade](https://github.com/livekit/agents/pull/7032) |
-| <img src="https://github.com/Chainlit.png?size=40" width="18" height="18" alt="" align="top" /> **[Chainlit](https://github.com/Chainlit/chainlit)** `★12k` | [MCP 2.x support alongside 1.x, one code path](https://github.com/Chainlit/chainlit/pull/3030) |
-| <img src="https://github.com/strands-agents.png?size=40" width="18" height="18" alt="" align="top" /> **[Strands Harness SDK](https://github.com/strands-agents/harness-sdk)** `★7k` | [the file editor rewrote every tab to spaces](https://github.com/strands-agents/harness-sdk/pull/4051) · [a bare `KeyError` on location-source documents](https://github.com/strands-agents/harness-sdk/pull/4060) |
-| <img src="https://github.com/openlit.png?size=40" width="18" height="18" alt="" align="top" /> **[OpenLIT](https://github.com/openlit/openlit)** `★3k` | [guards silently skipped on Mistral's async chat method](https://github.com/openlit/openlit/pull/1496) |
-| <img src="https://github.com/OpenHands.png?size=40" width="18" height="18" alt="" align="top" /> **[OpenHands SDK](https://github.com/OpenHands/software-agent-sdk)** `★1k` | [a process-global `cwd` leaked across concurrent tool calls](https://github.com/OpenHands/software-agent-sdk/pull/4703) |
+| <img src="https://github.com/browser-use.png?size=40" width="18" height="18" alt="" align="top" /> **[browser-use](https://github.com/browser-use)** `★112k` | [Gemini chats lost the first user message](https://github.com/browser-use/browser-use/pull/5597) |
+| <img src="https://github.com/docling-project.png?size=40" width="18" height="18" alt="" align="top" /> **[docling](https://github.com/docling-project/docling)** `★66k` | [Invalid WebVTT output from encoded files](https://github.com/docling-project/docling/pull/4109) |
+| <img src="https://github.com/BerriAI.png?size=40" width="18" height="18" alt="" align="top" /> **[LiteLLM](https://github.com/BerriAI/litellm)** `★57k` | [Chained gateways exposed no usable model list](https://github.com/BerriAI/litellm/pull/38557) |
+| <img src="https://github.com/run-llama.png?size=40" width="18" height="18" alt="" align="top" /> **[LlamaIndex](https://github.com/run-llama/llama_index)** `★52k` | [Text splitter breached its own chunk limit](https://github.com/run-llama/llama_index/pull/22859) |
+| <img src="https://github.com/mastra-ai.png?size=40" width="18" height="18" alt="" align="top" /> **[Mastra](https://github.com/mastra-ai/mastra)** `★28k` | [Memory timestamps wrong outside UTC servers](https://github.com/mastra-ai/mastra/pull/22590) |
+| <img src="https://github.com/livekit.png?size=40" width="18" height="18" alt="" align="top" /> **[LiveKit Agents](https://github.com/livekit/agents)** `★14k` | [API keys leaked into logs](https://github.com/livekit/agents/pull/7032) |
+| <img src="https://github.com/Chainlit.png?size=40" width="18" height="18" alt="" align="top" /> **[Chainlit](https://github.com/Chainlit/chainlit)** `★12k` | [Unblocked the MCP 2.x upgrade](https://github.com/Chainlit/chainlit/pull/3030) |
+| <img src="https://github.com/openlit.png?size=40" width="18" height="18" alt="" align="top" /> **[OpenLIT](https://github.com/openlit/openlit)** `★3k` | [Guardrails silently skipped on async calls](https://github.com/openlit/openlit/pull/1496) |
+| <img src="https://github.com/OpenHands.png?size=40" width="18" height="18" alt="" align="top" /> **[OpenHands SDK](https://github.com/OpenHands/software-agent-sdk)** `★1k` | [Concurrent tool calls corrupted each other’s working directory](https://github.com/OpenHands/software-agent-sdk/pull/4703) |
+| <img src="https://github.com/strands-agents.png?size=40" width="18" height="18" alt="" align="top" /> **[Strands Harness SDK](https://github.com/strands-agents/harness-sdk)** `★7k` | [File edits silently converted tabs to spaces](https://github.com/strands-agents/harness-sdk/pull/4051) · [Crash on location-source documents](https://github.com/strands-agents/harness-sdk/pull/4060) |
+
 -->
 
 ## Toolkit
