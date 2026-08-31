@@ -31,7 +31,6 @@ Multi-agent orchestration, retrieval that holds up at scale, and the guardrails,
 | <img src="https://github.com/bytedance.png?size=40" width="18" height="18" alt="" align="top" /> **[DeerFlow](https://github.com/bytedance/deer-flow)** `★81k` | ByteDance's long-horizon agent harness | [A broken dependency blocked every fresh setup](https://github.com/bytedance/deer-flow/pull/5087) |
 | <img src="https://github.com/docling-project.png?size=40" width="18" height="18" alt="" align="top" /> **[docling](https://github.com/docling-project/docling)** `★66k` | Document parsing for gen-AI pipelines | [Corrupted headers in parsed CSV output](https://github.com/docling-project/docling/pull/4098) |
 | <img src="https://github.com/livekit.png?size=40" width="18" height="18" alt="" align="top" /> **[LiveKit Agents](https://github.com/livekit/agents)** `★14k` | Realtime voice AI agent framework | [API keys leaked into logs](https://github.com/livekit/agents/pull/7032) |
-| <img src="https://github.com/lingdojo.png?size=40" width="18" height="18" alt="" align="top" /> **[kana-dojo](https://github.com/lingdojo/kana-dojo)** `★3k` | Japanese-learning platform | Content contribution |
 
 <!-- In review — un-comment to show. Kept here so the list survives edits.
      Note: the alignment row uses `:-` not `:--`, because a literal `--`
