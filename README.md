@@ -20,10 +20,9 @@
 AI Software Engineer in Pune, shipping production agentic AI end to end — multi-agent platforms,
 LLM gateways, RAG at scale and voice agents, with guardrails and observability built in from day one.
 
-The merged fixes below weren't picked off an issue queue. I found them by reading the source, then
-filed the issue, wrote the regression test and proved it went red without the fix. Currently
-building **[rag-studio](https://github.com/aniketwaghh/rag-studio)**, a visual builder for
-production RAG pipelines, and **[GarudaSDLC](https://github.com/aniketwaghh/GarudaSDLC)**.
+I find and fix bugs upstream in the tools I build on. Currently building
+**[rag-studio](https://github.com/aniketwaghh/rag-studio)**, a visual builder for production RAG
+pipelines, and **[GarudaSDLC](https://github.com/aniketwaghh/GarudaSDLC)**.
 
 ---
 
