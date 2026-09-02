@@ -17,15 +17,11 @@
 
 ## About
 
-AI Software Engineer in Pune, shipping production agentic AI end to end. At
-**[Apexon](https://www.apexon.com)** I've built a multi-tenant RAG platform serving **200+
-queries/sec**, a low-code multi-agent workflow builder on LangGraph and CrewAI used by 10+
-engineering teams, a centralised **LLM gateway** with virtual keys, budgets and guardrails, and a
-**voice agent** that lifted survey response rates by 75%. Those codebases are proprietary, so the
-public proof of how I work is below.
+AI Software Engineer in Pune, shipping production agentic AI end to end — multi-agent platforms,
+LLM gateways, RAG at scale and voice agents, with guardrails and observability built in from day one.
 
-Most of those merged fixes weren't picked off an issue queue — I found them by reading the source,
-then filed the issue, wrote the regression test and proved it went red without the fix. Currently
+The merged fixes below weren't picked off an issue queue. I found them by reading the source, then
+filed the issue, wrote the regression test and proved it went red without the fix. Currently
 building **[rag-studio](https://github.com/aniketwaghh/rag-studio)**, a visual builder for
 production RAG pipelines, and **[GarudaSDLC](https://github.com/aniketwaghh/GarudaSDLC)**.
 
