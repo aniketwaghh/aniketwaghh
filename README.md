@@ -17,25 +17,17 @@
 
 ## About
 
-I'm an AI Software Engineer in Pune, building production agentic AI systems end to end — from
-scoping a problem with a client to running the thing under load.
+AI Software Engineer in Pune, shipping production agentic AI end to end. At
+**[Apexon](https://www.apexon.com)** I've built a multi-tenant RAG platform serving **200+
+queries/sec**, a low-code multi-agent workflow builder on LangGraph and CrewAI used by 10+
+engineering teams, a centralised **LLM gateway** with virtual keys, budgets and guardrails, and a
+**voice agent** that lifted survey response rates by 75%. Those codebases are proprietary, so the
+public proof of how I work is below.
 
-At **[Apexon](https://www.apexon.com)** I've shipped a multi-tenant RAG platform serving **200+
-queries/sec** over petabyte-scale knowledge bases, a **low-code multi-agent workflow builder** on
-LangGraph and CrewAI now used by 10+ engineering teams, a centralised **LLM gateway** with virtual
-keys, budgets and guardrails, and a **voice agent** that lifted survey response rates by 75%.
-Those codebases are proprietary, so the public proof of how I work is below.
-
-The pattern in that table is the part I'd point at: most of those bugs weren't picked off an issue
-queue. I found them by reading the source — a BOM corrupting a CSV header, API keys reaching logs
-on a rejected handshake, a `cwd` mutation leaking across concurrent tool calls — then filed the
-issue, wrote the regression test, and proved it went red without the fix.
-
-**Working on now** — [rag-studio](https://github.com/aniketwaghh/rag-studio), a visual builder for
-production RAG pipelines, and [GarudaSDLC](https://github.com/aniketwaghh/GarudaSDLC), an agentic
-SDLC that turns client meetings into tracked, traceable work.
-
-**Ask me about** taking an agent from a notebook to something governed, observable and multi-tenant.
+Most of those merged fixes weren't picked off an issue queue — I found them by reading the source,
+then filed the issue, wrote the regression test and proved it went red without the fix. Currently
+building **[rag-studio](https://github.com/aniketwaghh/rag-studio)**, a visual builder for
+production RAG pipelines, and **[GarudaSDLC](https://github.com/aniketwaghh/GarudaSDLC)**.
 
 ---
 
