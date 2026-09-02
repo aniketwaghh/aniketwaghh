@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3200&pause=900&color=6E7BF2&center=true&vCenter=true&width=760&lines=AI+Software+Engineer+%E2%80%A2+Agentic+Systems;Multi-Agent+Platforms+%C2%B7+LLM+Gateways+%C2%B7+RAG+at+Scale;I+take+agents+from+notebook+to+production" alt="AI Software Engineer — agentic systems, multi-agent platforms, LLM gateways, RAG at scale" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3200&pause=900&color=6E7BF2&center=true&vCenter=true&width=760&lines=AI+Software+Engineer+%E2%80%A2+Agentic+Systems;Multi-Agent+Platforms+%C2%B7+LLM+Gateways+%C2%B7+RAG+at+Scale;I+take+agents+from+notebook+to+production" alt="AI Software Engineer, agentic systems, multi-agent platforms, LLM gateways, RAG at scale" />
 
 ### Aniket Wagh
 
@@ -17,7 +17,7 @@
 
 ## About
 
-AI Software Engineer in Pune, shipping production agentic AI end to end — multi-agent platforms,
+AI Software Engineer in Pune, shipping production agentic AI end to end: multi-agent platforms,
 LLM gateways, RAG at scale and voice agents, with guardrails and observability built in from day one.
 
 I find and fix bugs upstream in the tools I build on. Currently building
@@ -37,7 +37,7 @@ pipelines, and **[GarudaSDLC](https://github.com/aniketwaghh/GarudaSDLC)**.
 | <img src="https://github.com/docling-project.png?size=40" width="18" height="18" alt="" align="top" /> **[docling](https://github.com/docling-project/docling)** `★66k` | Document parsing for gen-AI pipelines | [Corrupted headers in parsed CSV output](https://github.com/docling-project/docling/pull/4098) · [Encoded files produced invalid WebVTT and lost the first heading](https://github.com/docling-project/docling/pull/4109) |
 | <img src="https://github.com/livekit.png?size=40" width="18" height="18" alt="" align="top" /> **[LiveKit Agents](https://github.com/livekit/agents)** `★14k` | Realtime voice AI agent framework | [API keys leaked into logs](https://github.com/livekit/agents/pull/7032) |
 
-<!-- In review — un-comment to show. Kept here so the list survives edits.
+<!-- In review. Un-comment to show. Kept here so the list survives edits.
      Note: the alignment row uses `:-` not `:--`, because a literal `--`
      inside an HTML comment is invalid and can end the comment early.
 
@@ -73,11 +73,11 @@ pipelines, and **[GarudaSDLC](https://github.com/aniketwaghh/GarudaSDLC)**.
 
 <br />
 
-- 🏅 **[AWS Certified Developer – Associate](https://cp.certmetrics.com/amazon/en/public/verify/credential/7b967ff892444689bc2d155a4785469a)** (DVA-C02) — Amazon Web Services
-- 📜 **AI Engineer, Core Track** — LLM engineering, RAG, LoRA/QLoRA fine-tuning, evals, observability
-- 📜 **AI Engineer, Agentic Track** — agentic design patterns, context engineering, MCP, CrewAI, LangGraph
-- 🏆 **AI Fiesta** & 🌟 **Budding Star Award, Q4** — Apexon
-- 🎓 **B.Tech, Computer Science & Engineering (AI)** — NCER Pune · 2024 · CGPA 8.28/10
+- 🏅 **[AWS Certified Developer – Associate](https://cp.certmetrics.com/amazon/en/public/verify/credential/7b967ff892444689bc2d155a4785469a)** (DVA-C02), Amazon Web Services
+- 📜 **AI Engineer, Core Track**: LLM engineering, RAG, LoRA/QLoRA fine-tuning, evals, observability
+- 📜 **AI Engineer, Agentic Track**: agentic design patterns, context engineering, MCP, CrewAI, LangGraph
+- 🏆 **AI Fiesta** & 🌟 **Budding Star Award, Q4** at Apexon
+- 🎓 **B.Tech, Computer Science & Engineering (AI)**, NCER Pune · 2024 · CGPA 8.28/10
 
 ---
 
@@ -93,7 +93,7 @@ pipelines, and **[GarudaSDLC](https://github.com/aniketwaghh/GarudaSDLC)**.
 <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Most committed language" width="44%" />
 <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Most productive time of day" width="44%" /> -->
 
-<img src="https://streak-stats.demolab.com?user=aniketwaghh&theme=github-dark-blue&hide_border=true&border_radius=8&date_format=j%20M%5B%20Y%5D" alt="Contribution streak — current and longest" width="88%" />
+<img src="https://streak-stats.demolab.com?user=aniketwaghh&theme=github-dark-blue&hide_border=true&border_radius=8&date_format=j%20M%5B%20Y%5D" alt="Contribution streak, current and longest" width="88%" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aniketwaghh/aniketwaghh/output/github-snake-dark.svg" />
