@@ -22,7 +22,7 @@ LLM gateways, RAG at scale and voice agents, with guardrails and observability b
 
 I find and fix bugs upstream in the tools I build on. Currently building
 **[rag-studio](https://github.com/aniketwaghh/rag-studio)**, a visual builder for production RAG
-pipelines, and **[GarudaSDLC](https://github.com/aniketwaghh/GarudaSDLC)**.
+pipelines.
 
 ---
 
