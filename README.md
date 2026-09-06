@@ -20,7 +20,7 @@
 AI Software Engineer in Pune, shipping production agentic AI end to end: multi-agent platforms,
 LLM gateways, RAG at scale and voice agents, with guardrails and observability built in from day one.
 
-I find and fix bugs upstream in the tools I build on. Currently building
+Currently building
 **[rag-studio](https://github.com/aniketwaghh/rag-studio)**, a visual builder for production RAG
 pipelines.
 
