@@ -22,7 +22,7 @@ LLM gateways, RAG at scale and voice agents, with guardrails and observability b
 
 Currently building
 **[rag-studio](https://github.com/aniketwaghh/rag-studio)**, a visual builder for production RAG
-pipelines.
+pipelines. 
 
 ---
 
