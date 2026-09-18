@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center"> 
  
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3200&pause=900&color=6E7BF2&center=true&vCenter=true&width=760&lines=AI+Software+Engineer+%E2%80%A2+Agentic+Systems;Multi-Agent+Platforms+%C2%B7+LLM+Gateways+%C2%B7+RAG+at+Scale;I+take+agents+from+notebook+to+production" alt="AI Software Engineer, agentic systems, multi-agent platforms, LLM gateways, RAG at scale" />
 
